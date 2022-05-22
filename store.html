@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Tedi Ganja</title>
+  <!--styles-->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles/animate.min.css" />
+  <!-- Custom styles for this template -->
+  <link href="styles/styles.css" rel="stylesheet">
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!--scripts-->
+  <script src="./scripts/jquery.min.js"></script>
+  <script src="./scripts/bootstrap.min.js"></script>
+  <script src="./scripts/wow.js"></script>
+  <link href="images/tedi-ganja-logo.svg" rel="shortcut icon">
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <header class="fixed-top tedi-ganja-header">
+      <nav class="container navbar  ">
+        <a class="navbar-brand header-logo store" href="index.html">
+          <img src="images/tedi-ganja-logo.svg" alt="tedi ganja" class="img-fluid  " />
+        </a>
+        <ul class="navbar-nav ml-auto  ms-md-auto">
+          <li class="nav-item">
+            <a type="button" class="btn teja-btn-gray active" href="store.html">
+              <span class="btn-label"><i class="sm-store-icon"></i></span>
+              <span>My Store</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn teja-btn-primary-md" data-bs-toggle="modal" data-bs-target="#WalletModal"
+              data-bs-whatever="@getbootstrap">
+              <span class="btn-label"><i class="sm-wallet-icon"></i></span>
+              <span>Connect Wallet</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <section class="container-fluid  position-relative home-container store-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+          <h1 class="text-caps font-size-32 font-weight-bold">
+            My Store
+          </h1>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-xs-6 mg-top-24">
+          <!-- <h6 class="timer font-size-64 text-green counter-number" >3</h6> -->
+          <h6 class="font-size-64 text-green counter-number">3</h6>
+          <p class="font-size-24">Total NFTs
+            <span class="d-block">Collected</span>
+          </p>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-xs-6 mg-top-24">
+          <h6 class="font-size-64 text-green d-flex">
+            <span class="mg-rgt-10">Ξ</span>
+            <span class=" " data-to=".1879" data-speed="1000">0.1879</span>
+          </h6>
+          <p class="font-size-24">Estimated Total
+            <span class="d-block">NFT Value</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pad-top-100">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+          <h1 class="text-caps font-size-32 font-weight-bold">
+            CollecteD NFts
+          </h1>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mg-top-30">
+          <div class="nft-container mouse-effect">
+
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mg-top-30">
+          <div class="nft-container mouse-effect">
+
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 mg-top-30">
+          <div class="nft-container mouse-effect">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid position-relative wallet-container rewards-section">
+    <div class="container pad-top-100 reveal">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
+          <h1 class="text-caps font-size-32 font-weight-bold">
+            Rewards Cards
+          </h1>
+        </div>
+      </div>
+      <div class="row mg-top-28">
+        <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-6  col">
+          <h6 class=" font-size-24 font-weight-bold">
+            Unlockable Content
+          </h6>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-right col">
+          <div class="material-switch pull-right">
+            <!-- <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
+            <label for="someSwitchOptionSuccess" class="label-success"></label> -->
+            <label>
+              <input type="checkbox" checked>
+              <span></span>
+            </label>
+        </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+          <p class=" font-size-18">Include unlockable content that can only be revealed by the owner of the item.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 mg-top-24">
+          <div class="rewards-container gift-card  mouse-effect">
+            <div class="row inside-box h-100">
+              <div class="col-xs-12 text-right">
+                <p class="font-size-18">You have unlocked</p>
+                <h6 class="font-size-40 mg-top-10">Surprise <span>Gift</span></h6>
+              </div>
+              <div class="col mt-auto">
+                <button class="btn btn-link mouse-effect float-left">
+                  View details
+                </button>
+              </div>
+              <div class="col mt-auto text-right">
+                <button class="btn claim-btn  mouse-effect float-right">
+                  CLAIM
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 mg-top-24">
+          <div class="rewards-container  mouse-effect travel-card">
+            <div class="row inside-box h-100">
+              <div class="col-xs-12 text-right">
+                <p class="font-size-18">You have unlocked</p>
+                <h6 class="font-size-40 mg-top-10">Travel<span>Offer</span> </h6>
+              </div>
+              <div class="col mt-auto">
+                <button class="btn btn-link mouse-effect float-left">
+                  View details
+                </button>
+              </div>
+              <div class="col mt-auto text-right">
+                <button class="btn claim-btn  mouse-effect float-right">
+                  CLAIM
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid footer-container align-items-center  ">
+      <div class="container pad-top-80 pad-btm-20">
+        <div class="row align-items-center justify-content-end">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <p class="copy-right mg-top-10">
+              Copyright © 2022 Ganga Goons Gang NFT
+            </p>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div class="social-link footer-social-link">
+              <ul class="bd-footer-links">
+                <li class="">
+                  <a class="telegram-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="twitter-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="facebook-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="insta-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="twitch-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="discord-icon" target="_blank" href="#"></a>
+                </li>
+                <li class="">
+                  <a class="reddit-icon" target="_blank" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <a id="back-to-top" href="#" class="btn back-to-top" role="button"><span>Top the moon</span> </a> -->
+
+  <!--select wallet modal-->
+  <div class="modal fade teja-modal" id="WalletModal" tabindex="-1" aria-labelledby="WalletModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="WalletModalLabel">
+            Connect Wallet
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="col">
+              <div class="form-group">
+                <button type="button" class="btn btn-labeled dojo-outline-btn"><span>MetaMask</span>
+                  <span class="btn-label"><i class="metamask-icon"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <button type="button" class="btn btn-labeled dojo-outline-btn"><span>WalletConnect</span>
+                  <span class="btn-label"><i class="wallet-blue-icon"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <button type="button" class="btn btn-labeled dojo-outline-btn"><span>Coinbase Wallet</span>
+                  <span class="btn-label"><i class="coinbasic-icon"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <button type="button" class="btn btn-labeled dojo-outline-btn"><span>Fortmatic</span>
+                  <span class="btn-label"><i class="formatic-icon"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <button type="button" class="btn btn-labeled dojo-outline-btn"><span>Portis</span>
+                  <span class="btn-label"><i class="portis-icon"></i></span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/tedi-ganja.js"></script>
+
+</body>
+
+</html>

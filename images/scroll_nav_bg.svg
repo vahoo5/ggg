@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="100" viewBox="0 0 1920 100">
+    <defs>
+        <linearGradient id="33cunyg5aa" x1=".544" y1=".5" x2=".544" y2="1.361" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#030f13"/>
+            <stop offset=".635" stop-color="#030f13" stop-opacity=".008"/>
+            <stop offset="1" stop-color="#030f13" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <path style="opacity:.5;mix-blend-mode:multiply;isolation:isolate;fill:url(#33cunyg5aa)" d="M0 0h1920v100H0z"/>
+</svg>
